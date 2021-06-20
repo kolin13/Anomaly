@@ -1,4 +1,5 @@
 class Room():
+
     def __init__(self, type, number, dostup):
         self.type = type
         self.number = number
