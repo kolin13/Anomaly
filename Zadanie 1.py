@@ -1,4 +1,6 @@
-class Room():
+class Room:
+    """Этот класс покажет уровень доступа у комнаты и информацию про ээту комнату
+    """
 
     def __init__(self, type, number, dostup):
         self.type = type
@@ -14,7 +16,10 @@ class Room():
 
 
 
-class chelovek():
+class chelovek:
+    """Этот класс покажет, доступно лли данному человеку попасть в данную комнату
+
+    """
     def __init__(self, typepol, ossoben, name, surname):
         self.typepol = typepol
         self.name = name
